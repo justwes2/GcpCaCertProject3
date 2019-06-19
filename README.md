@@ -9,7 +9,7 @@ Scope
 Create an App Engine deployment using this GitHub repo: <coming soon>.
 Deploy the V1 branch of the app into production.
 Update the app to the V2 branch code.
-Under the Versions pane, set up a canary deployment by splitting traffic to 80%/20% for versions 1 and 2 respectively.
+Under the Versions pane, set up a canary deployment by splitting traffic to 50%/50% for versions 1 and 2 respectively.
 Rollback the app to V1.
 
 The solution should include the following GCP services:
@@ -22,7 +22,7 @@ Steps
 
 1. Open CloudShell in the GCP console.
 
-2. Run `git clone <https repo url coming>` to clone this repo with the source code to your cloudshell instance.
+2. Run `git clone https://github.com/justwes2/GcpCaCertProject3` to clone this repo with the source code to your cloudshell instance.
 
 3. Make sure to `cd GcpCaCertProject3` to navigate to the correct directory.
 
