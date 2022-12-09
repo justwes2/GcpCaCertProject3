@@ -15,7 +15,7 @@
     "e2e-test": "repo-tools test deploy"
   },
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "^4.17.3"
   },
   "devDependencies": {
     "@google-cloud/nodejs-repo-tools": "^2.3.0",
